@@ -25,7 +25,7 @@
             "fetch_status": true
           },
           "style": "powerline",
-          "template": "<#bcbcbc>\ue0b1</> {{ .HEAD }}{{ if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if gt .StashCount 0 }} <#5fd700>*{{ .StashCount }}</>{{ end }}{{ if .Merge }} <#ff0000>{{ .Merge }}</>{{ end }}{{ if gt .Conflicted 0 }} <#ff0000>~{{ .Conflicted }}</>{{ end }}{{ if .Staging.Changed }} <#d7af00>+{{ .Staging.String }}</>{{ end }}{{ if .Working.Changed }} <#d7af00>!{{ .Working.String }}</>{{ end }}{{ if gt .Working.Untracked 0 }} <#00afff>?{{ .Working.Untracked }}</>{{ end }} ",
+          "template": "<#bcbcbc>\ue0b1</> {{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if gt .StashCount 0 }} <#5fd700>*{{ .StashCount }}</>{{ end }}{{ if .Working.Changed }} <#d7af00>\uf044 {{ .Working.String }}</>{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} <#d7af00>\uf046 {{ .Staging.String }}</>{{ end }} ",
           "type": "git"
         }
       ],
