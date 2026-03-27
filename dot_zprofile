@@ -1,2 +1,5 @@
-
+# brew
 eval "$(/opt/homebrew/bin/brew shellenv zsh)"
+
+# mise (it's here because nvim's mason cannot find it otherwise)
+eval "$(mise activate zsh)"

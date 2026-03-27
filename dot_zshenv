@@ -3,6 +3,3 @@
 
 # uv
 export PATH="/Users/inakiarango/.local/bin:$PATH"
-
-# mise
-eval "$(mise activate zsh)"
