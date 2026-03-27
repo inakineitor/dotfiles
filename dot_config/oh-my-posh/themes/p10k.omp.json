@@ -1,0 +1,174 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "left",
+      "segments": [
+        {
+          "background": "#585858",
+          "foreground": "#00afff",
+          "powerline_symbol": "\ue0b0",
+          "style": "powerline",
+          "options": {
+            "style": "unique",
+            "max_depth": 0,
+            "max_width": 80
+          },
+          "template": " {{ .Path }} ",
+          "type": "path"
+        },
+        {
+          "background": "#585858",
+          "foreground": "#5fd700",
+          "powerline_symbol": "\ue0b0",
+          "options": {
+            "fetch_status": true
+          },
+          "style": "powerline",
+          "template": "<#bcbcbc>\ue0b1</> {{ .HEAD }}{{ if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if gt .StashCount 0 }} <#5fd700>*{{ .StashCount }}</>{{ end }}{{ if .Merge }} <#ff0000>{{ .Merge }}</>{{ end }}{{ if gt .Conflicted 0 }} <#ff0000>~{{ .Conflicted }}</>{{ end }}{{ if .Staging.Changed }} <#d7af00>+{{ .Staging.String }}</>{{ end }}{{ if .Working.Changed }} <#d7af00>!{{ .Working.String }}</>{{ end }}{{ if gt .Working.Untracked 0 }} <#00afff>?{{ .Working.Untracked }}</>{{ end }} ",
+          "type": "git"
+        }
+      ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "right",
+      "segments": [
+        {
+          "background": "#585858",
+          "foreground": "#5faf00",
+          "foreground_templates": ["{{ if gt .Code 0 }}#d70000{{ end }}"],
+          "leading_diamond": "\ue0b2",
+          "options": {
+            "always_enabled": true
+          },
+          "style": "diamond",
+          "template": " {{ if eq .Code 0 }}\u2714{{ else }}\u2718 {{ reason .Code }}{{ end }} ",
+          "type": "status"
+        },
+        {
+          "background": "#585858",
+          "foreground": "#a8a8a8",
+          "style": "plain",
+          "options": {
+            "style": "dallas",
+            "threshold": 3000
+          },
+          "template": "<#bcbcbc>\ue0b3</> {{ .FormattedMs }} ",
+          "type": "executiontime"
+        },
+        {
+          "background": "#585858",
+          "foreground": "#00afaf",
+          "style": "plain",
+          "template": "<#bcbcbc>\ue0b3</> \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }}{{ else }}{{ .Full }}{{ end }}{{ end }} ",
+          "type": "python"
+        },
+        {
+          "background": "#585858",
+          "foreground": "#5faf00",
+          "style": "plain",
+          "template": "<#bcbcbc>\ue0b3</> \ue718 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "type": "node"
+        },
+        {
+          "background": "#585858",
+          "foreground": "#00afaf",
+          "style": "plain",
+          "template": "<#bcbcbc>\ue0b3</> \ue626 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "type": "go"
+        },
+        {
+          "background": "#585858",
+          "foreground": "#00afaf",
+          "style": "plain",
+          "template": "<#bcbcbc>\ue0b3</> \ue7a8 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "type": "rust"
+        },
+        {
+          "background": "#585858",
+          "foreground": "#af87d7",
+          "style": "plain",
+          "template": "<#bcbcbc>\ue0b3</> \ue73d {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "type": "php"
+        },
+        {
+          "background": "#585858",
+          "foreground": "#d7875f",
+          "style": "plain",
+          "template": "<#bcbcbc>\ue0b3</> \ue791 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "type": "ruby"
+        },
+        {
+          "background": "#585858",
+          "foreground": "#005f87",
+          "style": "plain",
+          "template": "<#bcbcbc>\ue0b3</> \ue738 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "type": "java"
+        },
+        {
+          "background": "#585858",
+          "foreground": "#af5fd7",
+          "style": "plain",
+          "template": "<#bcbcbc>\ue0b3</> \uf308 {{ .Context }}{{ if .Namespace }}{{ if ne .Namespace \"default\" }}/{{ .Namespace }}{{ end }}{{ end }} ",
+          "type": "kubectl"
+        },
+        {
+          "background": "#585858",
+          "foreground": "#00afd7",
+          "style": "plain",
+          "template": "{{ if ne .WorkspaceName \"default\" }}<#bcbcbc>\ue0b3</> {{ .WorkspaceName }} {{ end }}",
+          "type": "terraform"
+        },
+        {
+          "background": "#585858",
+          "foreground": "#ff8700",
+          "style": "plain",
+          "template": "<#bcbcbc>\ue0b3</> \ue7ad {{ .Profile }}{{ if .Region }} {{ .Region }}{{ end }} ",
+          "type": "aws"
+        },
+        {
+          "background": "#585858",
+          "foreground": "#005f87",
+          "style": "plain",
+          "template": "<#bcbcbc>\ue0b3</> \uebd8 {{ .EnvironmentName }} ",
+          "type": "az"
+        },
+        {
+          "background": "#585858",
+          "foreground": "#005f87",
+          "style": "plain",
+          "template": "<#bcbcbc>\ue0b3</> \uf7b7 {{ .Project }} ",
+          "type": "gcp"
+        },
+        {
+          "background": "#585858",
+          "foreground": "#d7af87",
+          "style": "plain",
+          "template": "<#bcbcbc>\ue0b3</> {{ .UserName }}@{{ .HostName }} ",
+          "type": "session"
+        },
+        {
+          "background": "#585858",
+          "foreground": "#5f8787",
+          "style": "diamond",
+          "trailing_diamond": "\ue0b4",
+          "options": {
+            "time_format": "15:04:05"
+          },
+          "template": "<#bcbcbc>\ue0b3</> {{ .CurrentDate | date .Format }} ",
+          "type": "time"
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "final_space": true,
+  "transient_prompt": {
+    "background": "transparent",
+    "foreground": "#5fd700",
+    "foreground_templates": ["{{ if gt .Code 0 }}#d70000{{ end }}"],
+    "template": "\u276f "
+  },
+  "version": 4
+}
