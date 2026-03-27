@@ -3,6 +3,7 @@
   "blocks": [
     {
       "alignment": "left",
+      "newline": true,
       "segments": [
         {
           "background": "#585858",
@@ -186,6 +187,7 @@
     "background": "transparent",
     "foreground": "#5fd700",
     "foreground_templates": ["{{ if gt .Code 0 }}#d70000{{ end }}"],
+    "newline": true,
     "template": "\u276f "
   },
   "version": 4
