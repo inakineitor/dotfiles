@@ -1,0 +1,15 @@
+# ===== Set up zsh =====
+autoload -Uz compinit
+compinit
+
+# ===== Set up zoxide =====
+eval "$(zoxide init zsh)"
+
+# ===== Set up fzf =====
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
+
+# ===== Autocompletions =====
+eval "$(uv generate-shell-completion zsh)"
+eval "$(uvx --generate-shell-completion zsh)"
+eval "$(ty generate-shell-completion zsh)"
