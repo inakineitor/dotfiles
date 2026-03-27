@@ -1,0 +1,48 @@
+## name: OneDark-Pro
+## upstream: https://github.com/VictorPLopes/OneDark-Pro-Kitty-Terminal/blob/main/kitty-themes/OneDark-Pro.conf
+
+# Colors
+
+# The basic colors
+foreground = #abb2bf
+background = #000000
+selection-foreground = #282c34
+selection-background = #abb2bf
+
+# Cursor colors
+cursor-color = #abb2bf
+cursor-text = #282c34
+
+# The 16 terminal colors
+
+# black
+palette = 0=#3f4451
+palette = 8=#4f5666
+
+# red
+palette = 1=#e06c75
+palette = 9=#be5046
+
+# green
+palette = 2=#98c379
+palette = 10=#a5e075
+
+# yellow
+palette = 3=#d19a66
+palette = 11=#e5c07b
+
+# blue
+palette = 4=#61afef
+palette = 12=#4dc4ff
+
+# purple
+palette = 5=#c678dd
+palette = 13=#de73ff
+
+# cyan
+palette = 6=#56b6c2
+palette = 14=#4cd1e0
+
+# white
+palette = 7=#d7dae0
+palette = 15=#e6e6e6

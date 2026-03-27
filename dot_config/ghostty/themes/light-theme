@@ -1,0 +1,48 @@
+## name: 1984 light theme
+## upstream: https://github.com/covertbert/iterm2-1984/
+
+# Colors
+
+# The basic colors
+foreground = #19152c
+background = #e4e5f5
+selection-foreground = #19152c
+selection-background = #ff16b0
+
+# Cursor colors
+cursor-color = #00b2be
+cursor-text = #19152c
+
+# The 16 terminal colors
+
+# black
+palette = 0=#000000
+palette = 8=#000000
+
+# red
+palette = 1=#ff16b0
+palette = 9=#ff16b0
+
+# green
+palette = 2=#00af4f
+palette = 10=#00af4f
+
+# yellow
+palette = 3=#ff8d01
+palette = 11=#ff8d01
+
+# blue
+palette = 4=#0098fd
+palette = 12=#0098fd
+
+# purple
+palette = 5=#f806fa
+palette = 13=#f806fa
+
+# cyan
+palette = 6=#00b2be
+palette = 14=#00b2be
+
+# white
+palette = 7=#feffff
+palette = 15=#feffff

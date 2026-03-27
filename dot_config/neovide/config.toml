@@ -1,0 +1,20 @@
+frame = "full"
+tabs = true
+
+[font]
+normal = ["MesloLGS Nerd Font Mono"]
+size = 13.0
+
+[font.features]
+"MesloLGS Nerd Font Mono" = [
+  "+ss01",
+  "+ss07",
+  "+ss11",
+  "-calt",
+  "+ss09",
+  "+ss02",
+  "+ss14",
+]
+
+[box-drawing]
+mode = "native"
