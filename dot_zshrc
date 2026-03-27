@@ -126,5 +126,5 @@ eval "$(ty generate-shell-completion zsh)"
 
 # ===== Prompt =====
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
-  eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/themes/p10k.omp.json)"
+  eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/themes/p10k.omp.jsonc)"
 fi
