@@ -123,6 +123,10 @@ source <(fzf --zsh)
 eval "$(uv generate-shell-completion zsh)"
 eval "$(uvx --generate-shell-completion zsh)"
 eval "$(ty generate-shell-completion zsh)"
+eval "$(ruff generate-shell-completion zsh)"
+
+# ===== Syntax highlighting =====
+eval "$($(brew --prefix)/bin/zsh-patina activate)"
 
 # ===== Prompt =====
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
