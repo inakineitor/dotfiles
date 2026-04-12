@@ -132,3 +132,8 @@ eval "$($(brew --prefix)/bin/zsh-patina activate)"
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
   eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/themes/p10k.omp.jsonc)"
 fi
+
+# ===== Context7 API key (from macOS Keychain) =====
+if [ -z "$CONTEXT7_API_KEY" ]; then
+  export CONTEXT7_API_KEY="$(security find-generic-password -a "$USER" -s context7_api_key -w 2>/dev/null)"
+fi
