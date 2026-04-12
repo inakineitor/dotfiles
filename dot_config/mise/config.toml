@@ -1,0 +1,10 @@
+[tools]
+bun = "latest"
+node = "latest"
+npm = "latest"
+pnpm = "latest"
+
+[settings]
+
+[settings.node]
+corepack = true
