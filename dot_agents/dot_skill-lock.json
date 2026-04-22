@@ -19,6 +19,15 @@
       "pluginName": "example-skills",
       "installedAt": "2026-04-22T22:35:27.931Z",
       "updatedAt": "2026-04-22T22:35:27.931Z"
+    },
+    "using-jj": {
+      "source": "trevors/dot-claude",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/trevors/dot-claude.git",
+      "skillPath": "skills/using-jj/SKILL.md",
+      "skillFolderHash": "1e3b05a07e0f4d68af854abe936f70efcb7c907d",
+      "installedAt": "2026-04-22T22:46:08.806Z",
+      "updatedAt": "2026-04-22T22:46:08.806Z"
     }
   },
   "dismissed": {
