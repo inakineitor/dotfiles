@@ -1,0 +1,98 @@
+[
+  {
+    "query": "how do I create a stacked PR with jj-spr where the second PR depends on the first",
+    "should_trigger": true
+  },
+  {
+    "query": "I ran jj spr land and now my next change is based on stale trunk, what step did I miss",
+    "should_trigger": true
+  },
+  {
+    "query": "how do I sync PR title edits from GitHub back into my local jj change",
+    "should_trigger": true
+  },
+  {
+    "query": "should I use --cherry-pick or create a dependent stack for these two refactors that can land in any order",
+    "should_trigger": true
+  },
+  {
+    "query": "walk me through jj spr init in a new repo and whether to use gh CLI or a PAT",
+    "should_trigger": true
+  },
+  {
+    "query": "my jj spr diff keeps creating a new PR instead of updating the existing one, what's wrong with the Pull Request trailer",
+    "should_trigger": true
+  },
+  {
+    "query": "I updated the commit message locally with jj describe but the PR on GitHub still shows the old title",
+    "should_trigger": true
+  },
+  {
+    "query": "jj spr land succeeded but my @ is empty and I can't find my change, how do I get back to a clean state",
+    "should_trigger": true
+  },
+  {
+    "query": "how do I configure spr.requireApproval to block landing unapproved PRs",
+    "should_trigger": true
+  },
+  {
+    "query": "installing jj-spr from source with cargo and wiring up the jj alias",
+    "should_trigger": true
+  },
+  {
+    "query": "what's the right way to update a specific change in the middle of my jj-spr stack",
+    "should_trigger": true
+  },
+  {
+    "query": "rebase my entire jj-spr stack onto fresh main@origin after someone else landed a PR",
+    "should_trigger": true
+  },
+  {
+    "query": "how do I absorb a fixup change into the right commit in my jj stack",
+    "should_trigger": false
+  },
+  {
+    "query": "create a new branch in git and push it to origin",
+    "should_trigger": false
+  },
+  {
+    "query": "show me the jj revset for finding divergent changes across the repo",
+    "should_trigger": false
+  },
+  {
+    "query": "commit my working copy with a sensible message",
+    "should_trigger": false
+  },
+  {
+    "query": "resolve a conflict after rebasing in jj",
+    "should_trigger": false
+  },
+  {
+    "query": "what's the jj equivalent of git stash",
+    "should_trigger": false
+  },
+  {
+    "query": "help me write a pre-push git hook that runs tests",
+    "should_trigger": false
+  },
+  {
+    "query": "gh pr create is failing because I'm not on any branch in my jj colocated repo",
+    "should_trigger": false
+  },
+  {
+    "query": "rebase my feature bookmark onto master",
+    "should_trigger": false
+  },
+  {
+    "query": "set up GitHub Actions to run tests on every PR",
+    "should_trigger": false
+  },
+  {
+    "query": "how do I use jj evolog to find a change I lost during a squash",
+    "should_trigger": false
+  },
+  {
+    "query": "temporarily disable immutable_heads in jj to rewrite a pushed commit",
+    "should_trigger": false
+  }
+]
