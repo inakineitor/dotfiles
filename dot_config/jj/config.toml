@@ -6,3 +6,12 @@ email = "arangoinaki@gmail.com"
 
 [aliases]
 spr = ["util", "exec", "--", "jj-spr"]
+
+[remotes.origin]
+auto-track-bookmarks = "*"
+
+[revset-aliases]
+# Prevent rewriting pushed commits
+'immutable_heads()' = 'builtin_immutable_heads() | remote_bookmarks()'
+# Shorthand for trunk
+'trunk()' = 'main@origin'
