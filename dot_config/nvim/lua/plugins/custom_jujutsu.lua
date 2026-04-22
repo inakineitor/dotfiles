@@ -4,6 +4,7 @@ return {
     dependencies = {
       "nvim-lua/plenary.nvim",
     },
+    opts = {},
     keys = {
       {
         -- Default is <Leader>jj
