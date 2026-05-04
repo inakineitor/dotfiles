@@ -12,5 +12,7 @@
   },
   "effortLevel": "xhigh",
   "skipDangerousModePermissionPrompt": true,
+  "theme": "auto",
+  "agentPushNotifEnabled": true,
   "skipAutoPermissionPrompt": true
 }
