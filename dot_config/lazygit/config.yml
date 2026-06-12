@@ -1,0 +1,4 @@
+git:
+  pagers:
+    - useExternalDiffGitConfig: true
+    - pager: delta --dark --paging=never

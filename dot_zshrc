@@ -137,3 +137,6 @@ fi
 if [ -z "$CONTEXT7_API_KEY" ]; then
   export CONTEXT7_API_KEY="$(security find-generic-password -a "$USER" -s context7_api_key -w 2>/dev/null)"
 fi
+
+# ===== Lazygit Config Directory =====
+export CONFIG_DIR="$HOME/.config/lazygit"

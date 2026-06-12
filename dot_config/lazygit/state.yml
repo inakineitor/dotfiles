@@ -1,0 +1,174 @@
+lastupdatecheck: 0
+recentrepos:
+    - /Users/inakiarango/Documents/Harvard/Labs/Zitnik/Repositories/design-agent-benchmark-cli
+    - /Users/inakiarango/Documents/Harvard/Labs/Zitnik/Repositories/design-agent
+    - /Users/inakiarango/Documents/Harvard/Labs/Zitnik/Repositories/design-agent-infra-scripts
+    - /Users/inakiarango/Documents/Harvard/Labs/Zitnik/Repositories/optimus
+    - /Users/inakiarango/Documents/Harvard/Labs/Zitnik/Repositories/tool-use-benchmark
+    - /Users/inakiarango/.local/share/chezmoi
+    - /Users/inakiarango/Documents/Harvard/Labs/Zitnik/Repositories/design-agent-paper
+    - /Users/inakiarango/Documents/Personal/Repositories/uncontainerizable
+    - /Users/inakiarango/Documents/Personal/Repositories/ai-tui
+    - /Users/inakiarango/Documents/Personal/Repositories/test/tiny-diffusion
+startuppopupversion: 5
+didshowhunkstaginghint: true
+lastversion: 0.62.2
+customcommandshistory: []
+hidecommandlog: false
+githubPullRequests:
+    /Users/inakiarango/.local/share/chezmoi: []
+    /Users/inakiarango/Documents/Harvard/Labs/Zitnik/Repositories/design-agent:
+        - headRefName: new-amo-structure
+          number: 39
+          title: new application manager structure
+          state: MERGED
+          url: https://github.com/inakineitor/design-agent/pull/39
+          headRepositoryOwner: inakineitor
+        - headRefName: benchmark-result-persistence
+          number: 51
+          title: Add benchmark failure result persistence
+          state: CLOSED
+          url: https://github.com/inakineitor/design-agent/pull/51
+          headRepositoryOwner: inakineitor
+        - headRefName: application-session-runtime-sdk
+          number: 47
+          title: Add shared application session runtimes
+          state: MERGED
+          url: https://github.com/inakineitor/design-agent/pull/47
+          headRepositoryOwner: inakineitor
+        - headRefName: tailscale-cocoon
+          number: 46
+          title: Add Tailscale Cocoon sidecar
+          state: MERGED
+          url: https://github.com/inakineitor/design-agent/pull/46
+          headRepositoryOwner: inakineitor
+        - headRefName: packer/macos-photoshop-vm
+          number: 40
+          title: add packer template for macos photoshop vm
+          state: MERGED
+          url: https://github.com/inakineitor/design-agent/pull/40
+          headRepositoryOwner: inakineitor
+        - headRefName: benchmark-adb-mcp-grid
+          number: 87
+          title: Add adb mcp benchmark solvers
+          state: OPEN
+          url: https://github.com/inakineitor/design-agent/pull/87
+          headRepositoryOwner: inakineitor
+        - headRefName: benchmark-adb-mcp-grid
+          number: 77
+          title: Add adb mcp benchmark solvers
+          state: CLOSED
+          url: https://github.com/inakineitor/design-agent/pull/77
+          headRepositoryOwner: inakineitor
+        - headRefName: benchmark-raw-design-agent-grid
+          number: 85
+          title: Fix Photoshop scale-layer pixel sizing
+          state: MERGED
+          url: https://github.com/inakineitor/design-agent/pull/85
+          headRepositoryOwner: inakineitor
+        - headRefName: benchmark-raw-design-agent-grid
+          number: 76
+          title: Add raw design-agent solver grid
+          state: CLOSED
+          url: https://github.com/inakineitor/design-agent/pull/76
+          headRepositoryOwner: inakineitor
+    /Users/inakiarango/Documents/Harvard/Labs/Zitnik/Repositories/design-agent-benchmark-cli:
+        - headRefName: benchmark-commander-cli
+          number: 66
+          title: add benchmark cli prototype
+          state: MERGED
+          url: https://github.com/inakineitor/design-agent/pull/66
+          headRepositoryOwner: inakineitor
+        - headRefName: rust-serde-json-value-refactor
+          number: 64
+          title: refactor serde json in rust servers
+          state: MERGED
+          url: https://github.com/inakineitor/design-agent/pull/64
+          headRepositoryOwner: inakineitor
+    /Users/inakiarango/Documents/Harvard/Labs/Zitnik/Repositories/design-agent-infra-scripts:
+        - headRefName: add-tart-host-init
+          number: 97
+          title: Add Tart host initialization script
+          state: OPEN
+          url: https://github.com/inakineitor/design-agent/pull/97
+          headRepositoryOwner: inakineitor
+        - headRefName: add-tart-host-init
+          number: 93
+          title: Add Tart host initialization script
+          state: CLOSED
+          url: https://github.com/inakineitor/design-agent/pull/93
+          headRepositoryOwner: inakineitor
+    /Users/inakiarango/Documents/Harvard/Labs/Zitnik/Repositories/design-agent-new-packer-template: []
+    /Users/inakiarango/Documents/Harvard/Labs/Zitnik/Repositories/design-agent-paper: []
+    /Users/inakiarango/Documents/Harvard/Labs/Zitnik/Repositories/design-agent-tags:
+        - headRefName: benchmark-global-attempt-pool
+          number: 86
+          title: Pool benchmark attempts across solvers
+          state: OPEN
+          url: https://github.com/inakineitor/design-agent/pull/86
+          headRepositoryOwner: inakineitor
+    /Users/inakiarango/Documents/Harvard/Labs/Zitnik/Repositories/design-agent-tsnet-sidecar:
+        - headRefName: tailscale-cocoon
+          number: 46
+          title: Add Tailscale Cocoon sidecar
+          state: MERGED
+          url: https://github.com/inakineitor/design-agent/pull/46
+          headRepositoryOwner: inakineitor
+        - headRefName: tailscale-cocoon
+          number: 46
+          title: Add Tailscale Cocoon sidecar
+          state: MERGED
+          url: https://github.com/inakineitor/design-agent/pull/46
+          headRepositoryOwner: inakineitor
+        - headRefName: new-amo-structure
+          number: 39
+          title: new application manager structure
+          state: MERGED
+          url: https://github.com/inakineitor/design-agent/pull/39
+          headRepositoryOwner: inakineitor
+    /Users/inakiarango/Documents/Harvard/Labs/Zitnik/Repositories/optimus:
+        - headRefName: new-style
+          number: 151
+          title: refactor
+          state: MERGED
+          url: https://github.com/mims-harvard/OptimusKG/pull/151
+          headRepositoryOwner: mims-harvard
+        - headRefName: new-figures
+          number: 164
+          title: 'feat(landing): regenerate PaperQA3 validation figures as themed SVGs'
+          state: MERGED
+          url: https://github.com/mims-harvard/OptimusKG/pull/164
+          headRepositoryOwner: mims-harvard
+        - headRefName: revert/pr-162
+          number: 165
+          title: 'Revert PR #162 (schema tree + citation)'
+          state: MERGED
+          url: https://github.com/mims-harvard/OptimusKG/pull/165
+          headRepositoryOwner: mims-harvard
+        - headRefName: fix-mobile-horizontal-scroll
+          number: 161
+          title: prevent mobile horizontal scroll
+          state: MERGED
+          url: https://github.com/mims-harvard/OptimusKG/pull/161
+          headRepositoryOwner: mims-harvard
+        - headRefName: fix-window-bar
+          number: 160
+          title: fix window bar
+          state: MERGED
+          url: https://github.com/mims-harvard/OptimusKG/pull/160
+          headRepositoryOwner: mims-harvard
+        - headRefName: fix-window-bar
+          number: 159
+          title: fix window bar
+          state: MERGED
+          url: https://github.com/mims-harvard/OptimusKG/pull/159
+          headRepositoryOwner: mims-harvard
+    /Users/inakiarango/Documents/Harvard/Labs/Zitnik/Repositories/tool-use-benchmark:
+        - headRefName: refusal-regression
+          number: 3
+          title: refusal regression test
+          state: DRAFT
+          url: https://github.com/mims-harvard/tool-use-benchmark/pull/3
+          headRepositoryOwner: mims-harvard
+    /Users/inakiarango/Documents/Personal/Repositories/ai-tui: []
+    /Users/inakiarango/Documents/Personal/Repositories/uncontainerizable: []
