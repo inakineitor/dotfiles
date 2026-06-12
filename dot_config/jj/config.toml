@@ -15,3 +15,6 @@ auto-track-bookmarks = "*"
 'immutable_heads()' = 'builtin_immutable_heads() | remote_bookmarks()'
 # Shorthand for trunk
 'trunk()' = 'main@origin'
+
+[ui]
+diff-formatter = ["difft", "--color=always", "$left", "$right"]
