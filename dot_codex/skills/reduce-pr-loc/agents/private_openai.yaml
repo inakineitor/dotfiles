@@ -1,0 +1,12 @@
+interface:
+  display_name: reduce pr loc
+  short_description: Shrink PRs with repository-wide code-judo redesigns
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
